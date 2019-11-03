@@ -1,0 +1,80 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background: #ACC6Bb;
+}
+
+.card {
+    display: block;
+    max-width: 800px;
+    background: #008080;
+    margin: auto;
+    padding: 1.5rem 2.5rem;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h1 {
+        font-size: 4rem;
+        color: #0000cc;
+    }
+
+    img {
+        display: block;
+        width: 15rem;
+    }
+}
+
+.userInfo {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+.followers {
+    text-align: center;
+
+    font-size: 2rem;
+
+    &__detail {
+        background: coral;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        p {
+            margin-left: 3rem;
+        }
+    }
+}
+
+.secondary-heading {
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.repos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    p {
+        background: chocolate;
+        margin: 1.5rem;
+        padding: 1rem 1.5rem;
+        font-size: 2rem;
+        border-radius: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
